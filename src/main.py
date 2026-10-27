@@ -6,6 +6,7 @@ if __name__ == "__main__":
     print(f"Маска карты: {get_mask_card_number(card_input)}")
 
     print("-" * 40)
+    print("*" * 40)
 
     # 2. Проверяем маску счета
     account_input = input("Введите номер счета: ")
