@@ -7,7 +7,9 @@ package-mode = true
 packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.14"
+python = "^3.13"
+requests = "^2.34.2"
+pytest = "^9.2.0"
 
 [build-system]
 requires = ["poetry-core"]
