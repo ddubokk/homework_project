@@ -11,3 +11,6 @@ if __name__ == "__main__":
 # 2. Проверяем маску счета
 account_input = input("Введите номер счета: ")
 print(f"Маска счета: {get_mask_account(account_input)}")
+
+
+print("Hello")
